@@ -7,13 +7,13 @@ variables:
   - name: projectName
     value: 'Training-Student-011-OC014'              # <-- Update this
   - name: buildPipelineName
-    value: 'finapi-hany'       # <-- Update this
+    value: 'finapi_hany_build'       # <-- Update this
   - name: artifactName
     value: 'api'
   - name: targetFile
     value: 'app.py'                               # Optional: Which file inside artifact to display
   - name: resourceGroup
-    value: '<Training-Student-011-OC014'          # <-- Update this
+    value: 'Training-Student-011-OC014'          # <-- Update this
   - name: webAppName
     value: 'finapi-hany'                  # <-- Update this Azure Web App target
 
